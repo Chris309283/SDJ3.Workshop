@@ -1,4 +1,4 @@
-package dk.via.sdj3.session7.exercise7.exercise7;
+package dk.via.sdj3.session7.exercise7;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
