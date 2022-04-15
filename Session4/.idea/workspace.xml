@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69d3deb3-612b-43e8-b649-ea100fe2aa7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Session3/DAO.DTO/src/main/java/dao/DaoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Session3/DAO.DTO/src/main/java/dao/dao/DaoApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Session3/DAO.DTO/src/main/java/dao/dao/DrinkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Session3/DAO.DTO/src/main/java/dao/model/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Session3/DAO.DTO/src/main/java/dto/client/StudentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Session3/DAO.DTO/src/main/java/dto/server/StudentInfoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Session3/DAO.DTO/src/main/java/dto/to/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonXml/src/main/java/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonXml/src/main/java/toJson/ToJsonXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise4/src/main/java/client/RmiCaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise4/src/main/java/server/RmiCaseServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise4/src/main/java/server/TextConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jaxws/src/main/java/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jaxws/src/main/java/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jaxws/src/main/java/service/WakeUpMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jaxws/src/main/java/service/WakeUpMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Session6/RESTorderAPI/src/main/java/dk/via/sdj3/restorderapi/controller/OrderController0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Session6/RESTorderAPI/src/main/java/dk/via/sdj3/restorderapi/model/Order0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Session6/RESTorderAPI/src/main/java/dk/via/sdj3/restorderapi/repository/OrderRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="27r8p1eQwkjsl6Fboz0lQiJzXkM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69d3deb3-612b-43e8-b649-ea100fe2aa7c" name="Changes" comment="" />
+      <created>1650067029148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650067029148</updated>
+      <workItem from="1650067036603" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
