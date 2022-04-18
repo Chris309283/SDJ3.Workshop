@@ -8,21 +8,19 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration public class RabbitMQConfig
 {
-  @Bean Exchange productExchange()
+  @Bean Exchange orderExchange()
   {
-    return new DirectExchange("x.sdj3.product.exchange");
+    return new DirectExchange("x.sdj3.order.exchange");
   }
 
-  @Bean Queue productQueue()
+  @Bean Queue orderQueue()
   {
-    return new Queue("x.sdj3.product.queue");
+    return new Queue("x.sdj3.order.queue",false);
   }
 
-  @Bean Binding productBinding()
+  @Bean Binding orderBinding()
   {
-    // return new Binding("x.sdj3.product.queue", Binding.DestinationType.QUEUE, "x.sdj3.product.exchange", "x.sdj3.product.queue", null);
-    return BindingBuilder.bind(productQueue()).to(productExchange())
-        .with("product.routingKey").noargs();
+    return BindingBuilder.bind(orderQueue()).to(orderExchange()).with("order.routingKey").noargs();
   }
 
   @Bean MessageConverter jsonMessageConverter()
