@@ -12,15 +12,17 @@ import java.util.Optional;
 
 @RestController @RequestMapping("/api/") public class OrderController
 {
+  @Autowired
   private RabbitMQOrderProducer rabbitMQOrderProducer;
+  @Autowired
   private OrderRepo orderRepo;
 
-  @Autowired
+/*@Autowired
   public OrderController(RabbitMQOrderProducer rabbitMQOrderProducer, OrderRepo orderRepo)
   {
     this.rabbitMQOrderProducer = rabbitMQOrderProducer;
     this.orderRepo = orderRepo;
-  }
+  }*/
 
 
   @GetMapping("/order") public String MakeOrder(@RequestParam("id") int id,

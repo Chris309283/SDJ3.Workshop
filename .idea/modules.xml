@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignment1/Assignment1.iml" filepath="$PROJECT_DIR$/Assignment1/Assignment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment2/Assignment2.iml" filepath="$PROJECT_DIR$/Assignment2/Assignment2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session3/DAO.DTO/DAO.DTO.iml" filepath="$PROJECT_DIR$/Session3/DAO.DTO/DAO.DTO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session9/Dependecy-spring/Dependecy-spring.iml" filepath="$PROJECT_DIR$/Session9/Dependecy-spring/Dependecy-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session9/Dependency-Guice/Dependency-Guice.iml" filepath="$PROJECT_DIR$/Session9/Dependency-Guice/Dependency-Guice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session7/Indirect-comm-group/Indirect-comm-group.iml" filepath="$PROJECT_DIR$/Session7/Indirect-comm-group/Indirect-comm-group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session4/JsonXml/JsonXml.iml" filepath="$PROJECT_DIR$/Session4/JsonXml/JsonXml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session6/RESTorderAPI/RESTorderAPI.iml" filepath="$PROJECT_DIR$/Session6/RESTorderAPI/RESTorderAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SDJ3.Workshop.iml" filepath="$PROJECT_DIR$/.idea/SDJ3.Workshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session4/exercise4/exercise4.iml" filepath="$PROJECT_DIR$/Session4/exercise4/exercise4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session7/exercise7/exercise7.iml" filepath="$PROJECT_DIR$/Session7/exercise7/exercise7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session4/jaxws/jaxws.iml" filepath="$PROJECT_DIR$/Session4/jaxws/jaxws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session7/rabbitMQ/rabbitMQ.iml" filepath="$PROJECT_DIR$/Session7/rabbitMQ/rabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session11/websocket-demo/websocket-demo.iml" filepath="$PROJECT_DIR$/Session11/websocket-demo/websocket-demo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Session3/DAO.DTO/pom.xml" />
+        <option value="$PROJECT_DIR$/Session4/jaxws/pom.xml" />
+        <option value="$PROJECT_DIR$/Session4/JsonXml/pom.xml" />
+        <option value="$PROJECT_DIR$/Session4/exercise4/pom.xml" />
+        <option value="$PROJECT_DIR$/Session6/RESTorderAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/Session7/rabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/Session7/exercise7/pom.xml" />
+        <option value="$PROJECT_DIR$/Session7/Indirect-comm-group/pom.xml" />
+        <option value="$PROJECT_DIR$/Session9/Dependecy-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/Session9/Dependency-Guice/pom.xml" />
+        <option value="$PROJECT_DIR$/Session11/websocket-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Assignment1/pom.xml" />
+        <option value="$PROJECT_DIR$/Assignment2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
