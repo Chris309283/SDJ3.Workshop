@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RESTorderAPI" />
+        <module name="exercise7" />
+        <module name="Indirect-comm-group" />
+        <module name="DAO.DTO" />
+        <module name="exercise4" />
+        <module name="JsonXml" />
+        <module name="Assignment1" />
+        <module name="Assignment2" />
+        <module name="rabbitMQ" />
+        <module name="jaxws" />
+        <module name="Exam" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Assignment2" options="-parameters" />
+      <module name="RESTorderAPI" options="-parameters" />
+      <module name="exercise7" options="-parameters" />
+    </option>
+  </component>
+</project>
