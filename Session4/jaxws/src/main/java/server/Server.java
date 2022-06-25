@@ -11,7 +11,7 @@ public class Server
   public static void main(String[] args)
   {
     WakeUpMessageServiceImpl service = new WakeUpMessageServiceImpl();
-    String address = "http://localhost:9090/jaxws-wakeUp-service";
+    String address = "http://localhost:9091/jaxws-wakeUp-service";
     Endpoint.publish(address,service);
     System.out.println("*********** The Server is ready... ************");
     System.out.println("===============================================");

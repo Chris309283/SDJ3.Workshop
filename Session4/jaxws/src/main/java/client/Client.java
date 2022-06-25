@@ -12,9 +12,9 @@ public class Client
 {
   public static void main(String[] args) throws MalformedURLException
   {
-    URL WSDL_URL = new URL("http://localhost:9090/jaxws-wakeUp-service?wsdl");
+    URL WSDL_URL = new URL("http://localhost:9091/jaxws-wakeUp-service?wsdl");
 
-    QName SERVICE_NAME = new QName("http://service.jaxws.session4.sdj3.dk.via/",
+    QName SERVICE_NAME = new QName("http://service/",
         "WakeUpService");
 
     //create the Jaxws (CXF) supplied service
