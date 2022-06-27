@@ -1,0 +1,123 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" Content="text/html" charset="UTF-8">
+    <title>Client to a WebSocket Server in Spring Boot</title>
+    <script type="text/javascript">
+        function init() {
+            output = document.getElementById("messages");
+
+        }
+
+        function send() {
+            var wsUri = "ws://localhost:8080/chat";
+            writeToScreen("Connecting to: " + wsUri);
+
+            websocket = new WebSocket(wsUri);
+
+            websocket.onopen = function (evt) {
+                writeToscrren("Connected");
+                doSend(document.getElementById("textID").value)
+            };
+            websocket.onmessage = function (evt) {
+                writeToScreen("Received Message: " + evt.data);
+                websocket.close();
+            };
+            websocket.onerror = function (evt) {
+                writeToScreen('Error Occurred: ' + evt.data);
+            };
+            websocket.onclose = function (evt) {
+                writeToScreen("Disconnected");
+            };
+            function writeToScreen(message) {
+                var pre = document.createElement("p");
+                pre.style.wordWrap = "break-word";
+                pre.innerHTML = message;
+                output.append(pre);
+            }
+
+            function doSend(message) {
+                websocket.send(message);
+                writeToScreen("Sending Message: " + message);
+
+            }
+
+            window.addEventListener("load", init, false);
+        }
+
+
+    </script>
+</head>
+<body>
+<h1>WebSocket Chat Client</h1>
+<div style="text-align: left">
+    <form action="">
+        <input onclick="send()" type="button" value="Send">
+        <input id="textID" name="message" PLACEHOLDER="Enter a message" type="text">
+        <br>
+    </form>
+</div>
+<div id="messages">
+
+</div>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>Client to a web socket in spring boot</title>
+    <script type="text/javascript">
+        function init() {
+            output = document.getElementById("output");
+        }
+
+        function send() {
+            var wsUri = "ws://localhost:8080/chat";
+            writeToScreen("Connecting to: " + wsUri);
+            websocket = new WebSocket(wsUri);
+            websocket.onopen = function (evt) {
+                writeToScreen("Successfully Connected!");
+                doSend(document.getElementById("textID").value);
+            };
+            websocket.onmessage = function (evt) {
+                writeToScreen("Received Message: " + evt.data);
+                websocket.close();
+            };
+            websocket.onerror = function (evt) {
+                writeToScreen("<span style=color:red>ERROR</span>" + evt.data
+                )
+            };
+
+            function doSend(message) {
+                websocket.send(message);
+                writeToScreen("Sending message: " + message);
+            }
+
+            function writeToScreen(message) {
+                var pre = document.createElement("p");
+                pre.style.wordWrap = "break-word";
+                pre.innerHTML = message;
+                output.append(pre);
+            }
+
+            window.addEventListener("load", init, false);
+        }
+    </script>
+</head>
+<body>
+<h1>web socket chat client</h1>
+<div style="text-align: left">
+    <form action="">
+        <input type="button" onclick="send()" value="Send">
+        <input type="text" id="textID" name="message" placeholder="Enter a message">
+        <br>
+    </form>
+</div>
+<div id="output">
+
+</div>
+</body>
+</html>
